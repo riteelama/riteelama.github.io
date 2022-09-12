@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Single Page</title>
+	<link rel="stylesheet" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700,900,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div id="page" class="site">
+	<header class="site-header">
+		<div class="container">
+			<div class="site-branding">
+				<h1 class="site-title"><a href="#">Ritee Lama</a></h1>
+				<p class="site-description">Web designer and developer</p>
+			</div>
+			<!-- main-navigation of the site -->
+			
+			<nav id="site-navigation" class="main-navigation">
+				<div>
+					<ul>
+						<li class="current-menu-item">
+							<a href="#">Home</a>
+						</li>
+						<li><a href="#skill-section">Skills</a></li>
+						<li><a href="#portfolio-section">Portfolio</a></li>
+						<li><a href="#contact-section">Contact</a></li>
+						<li><a href="#testimonial-section">Testimonial</a></li>
+						<li><a href="images/ritee-lama-cv.pdf" target="_blank" >Download CV</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+<div class="contact-form" id="contact-form">
+	<center>
+				<form method="post" action="/">
+					<table cellpadding="8" cellspacing="8" width="600" bgcolor="#fff">
+						<tr>
+							<th colspan="2"><h2>Send me quick message</h2></th>
+						</tr>					
+						
+						<tr >
+							<th><label>Full Name:</label></th>
+							<td ><input type="text" size="50" maxlength="50"/></td>
+						</tr>
+						
+						<tr>
+							<th><label>Gender:</label></th>
+							<td colspan="3"><input type="radio" name="Male" checked/>male
+							<input type="radio" name="female"/>Female
+							<input type="radio" name="other"/>Other</td>
+						</tr>
+						
+						<tr>
+							<th rowspan="2"><label>Hobby:</label></th>
+							<td colspan="2"><input type="checkbox" name="swimming"/>Swimming
+							<input type="checkbox" name="dancing"/>Dancing</td>
+						</tr>
+						
+						<tr>
+							<td colspan="2"><input type="checkbox" name="travel"/>Travel
+							<input type="checkbox" name="reading"/>Reading</td>
+						</tr>
+						
+						<tr>
+							<th><label>Country:</label></th>
+							<td ><select name="dropdown">
+								<option value="select-country">Select County</option>
+								<option value="nepal">Nepal</option>
+								<option value="india">India</option>
+								<option value="china">China</option>
+								<option value="usa">USA</option></td>
+							</select>
+						</tr>
+						
+						<tr>
+							<th><label>Docs:</label></th>
+							<td><input type="file" name="upload-docs" accept="docs/*"/></td>
+						</tr>
+						
+						<tr>
+							<th><label>Comments:</label></th>
+							<td><textarea rows="10" cols="52"></textarea></td>
+						</tr>
+						
+						<tr>
+							<td colspan="2" align="center"><button type="button" onclick="alert('Thank you for your submission')">Submit</button>
+							<input type="reset" value="Reset"/></td>
+						</tr>
+					
+					</table>
+				</form>
+		</center>
+</div>
+
+<div class="footer-section" id="footer-section">
+	<div class="footer-text-holder">
+		<div class="site-info">&copy; 2021 <a href="#">Portfolio</a>. All rights reserved by Ritee Lama</a>.
+		</div>
+	</div>
+</div>
+
+</div>	
+</body>
+</html>
